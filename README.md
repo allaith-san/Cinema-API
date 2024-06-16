@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">A Quick API Project Made with Laravel PHP</h4>
+<h4 align="center">A Quick API Project Made with Laravel PHP in a single weekend</h4>
 
 <p align="center">
   <a href="#features">Features</a>
