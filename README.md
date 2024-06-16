@@ -20,7 +20,7 @@
 
 ## Features
 
-<img align="right" src="https://i.imgur.com/kSXwUJw.png" style="width:500px">
+<img align="right" src="https://imgur.com/a/Lsuuygk" style="width:500px">
 
 - Creating Customers and Adding Them to the Database
 - Editing and Patching Customers
