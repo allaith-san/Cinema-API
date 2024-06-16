@@ -106,10 +106,16 @@ You should then get a link that will allow you to visit the website.
 If the site is working correctly, you should be able to create a user and claim an access token that will allow you to connect to the API safely.
 use the link `127.0.0.1:8000/register` to register the user
 
+after registering a user click on the generate token tab, and make ur token and save it somewhere safe to use it by the API
+
 
 ## API Functionality
 
 for the API documentation and functionality visit this [link](https://documenter.getpostman.com/view/10567374/2sA3XQiNHA).
 
 I recommend using [PostMan Desktop](https://www.postman.com/downloads/) to test the API locally and send requests!
+
+If you have Postman downloaded on ur desktop you can visit the [documentation](https://documenter.getpostman.com/view/10567374/2sA3XQiNHA) and then hit the (run in postman) button that will copy all the requests to your workspace automatically 
+
+
 from here its all up to you to test the API
