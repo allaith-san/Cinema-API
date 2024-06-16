@@ -112,4 +112,4 @@ use the link `127.0.0.1:8000/register` to register the user
 for the API documentation and functionality visit this [link](https://documenter.getpostman.com/view/10567374/2sA3XQiNHA).
 
 I recommend using [PostMan Desktop](https://www.postman.com/downloads/) to test the API locally and send requests!
-from here its all up to you to test the api!
+from here its all up to you to test the API
