@@ -8,7 +8,7 @@
 <p align="center">
   <a href="#features">Features</a>
   •
-  <a href="#Improvements">Cooking</a>
+  <a href="#todo">Improvements</a>
   •
   <a href="#development">Development</a>
   •
@@ -42,7 +42,8 @@
 - Secured and Protected with Access Tokens
 - Entirely Seeded with Dummy Data Using Laravel Factories
 
-## Future Improvements (Version 1.1)
+## TODO
+### Future Improvements (Version 1.1)
 If this were a full-fledged project and I had more time, here are some enhancements I would implement:
 
 - Separate Date and Time: Make date and time more readable in movies and screenings.
