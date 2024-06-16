@@ -41,7 +41,7 @@
 - Pagination System
 - Version-Based Structure Support
 - Hashed Passwords
-- Simple Admin Dashboard at http://localhost
+- Simple Admin Dashboard
 - Secured and Protected with Access Tokens
 - Entirely Seeded with Dummy Data Using Laravel Factories
 
