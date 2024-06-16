@@ -53,14 +53,12 @@ If this were a full-fledged project and I had more time, here are some enhanceme
 - Cinema Management System: Ensure no two movies are playing in the same hall simultaneously, requiring a full management system beyond the current scope.
 - Full Hall Handling: Address the issue of what happens when a hall is full, linking back to the need for a comprehensive management system rather than a quick API.
 
-
-Yes, there are a few grammatical and stylistic errors in the text. Here is a revised version with corrections:
-
 ---
 
 ## Installation
 
 To run the project locally, you need a virtual PHP development environment. I recommend [XAMPP](https://www.apachefriends.org), as it will allow us to host a database and control it using phpMyAdmin.
+### Make sure you have the latest version of XAMPP that supports PHP 8.2 or higher!
 
 #### The installation of the project is straightforward
 
