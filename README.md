@@ -83,7 +83,7 @@ generate a key for the project
   php artisan key:generate
 ```
 
-Now, using XAMPP, you can start Apache and the MySQL connection. Then navigate to phpMyAdmin and create a new database. Call it "cinema_db".
+Now, using XAMPP, you can start Apache and the MySQL connection. Then navigate to localhost/phpmyadmin/ and create a new database. Call it "cinema_db".
 After that, make sure to connect the database inside the `.env` file, by uncommenting and filling in the values :
 
 ```sh
