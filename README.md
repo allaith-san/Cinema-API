@@ -8,7 +8,7 @@
 <p align="center">
   <a href="#features">Features</a>
   •
-  <a href="#cooking">Cooking</a>
+  <a href="#Improvements">Cooking</a>
   •
   <a href="#development">Development</a>
   •
@@ -17,12 +17,6 @@
   <a href="#notes">Notes</a>
 </p>
 
-<h2 align="center">Looking for a drinks and hosting.</h2>
-
-[![Build Status](https://dev.azure.com/miezhiko/Amadeus/_apis/build/status/Miezhiko.Amadeus?branchName=mawa)]()
-[![GitHub](https://github.com/Miezhiko/Amadeus/workflows/mawa/badge.svg?branch=mawa)]()
-[![Discord](https://img.shields.io/discord/611822838831251466?label=Discord&color=pink)]()
-[![Twitter Follow](https://img.shields.io/twitter/follow/Miezhiko.svg?style=social)]()
 
 ## Features
 
@@ -48,3 +42,13 @@
 - Secured and Protected with Access Tokens
 - Entirely Seeded with Dummy Data Using Laravel Factories
 
+## Future Improvements (Version 1.1)
+If this were a full-fledged project and I had more time, here are some enhancements I would implement:
+
+- Separate Date and Time: Make date and time more readable in movies and screenings.
+- Use Real Data: Replace dummy data with real data from external APIs that support large volumes of requests.
+- Enhanced Ticket Acquisition Process: Develop a more secure ticket purchasing process.
+- Replace Placeholder Tokens: Use actual tokens instead of placeholder customer tokens.
+- Ticket Scanning Detection System: Implement a system to detect whether tickets have been scanned.
+- Cinema Management System: Ensure no two movies are playing in the same hall simultaneously, requiring a full management system beyond the current scope.
+- Full Hall Handling: Address the issue of what happens when a hall is full, linking back to the need for a comprehensive management system rather than a quick API.
