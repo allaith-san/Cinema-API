@@ -1,3 +1,4 @@
+
 <h1 align="center">
   Cinema API 
   <br>
@@ -10,11 +11,9 @@
   •
   <a href="#todo">Improvements</a>
   •
-  <a href="#development">Development</a>
+  <a href="#installation">Installation</a>
   •
-  <a href="#service">Service</a>
-  •
-  <a href="#notes">Notes</a>
+  <a href="https://documenter.getpostman.com/view/10567374/2sA3XQiNHA" target="__blank">API Documentation</a>
 </p>
 
 
@@ -53,3 +52,57 @@ If this were a full-fledged project and I had more time, here are some enhanceme
 - Ticket Scanning Detection System: Implement a system to detect whether tickets have been scanned.
 - Cinema Management System: Ensure no two movies are playing in the same hall simultaneously, requiring a full management system beyond the current scope.
 - Full Hall Handling: Address the issue of what happens when a hall is full, linking back to the need for a comprehensive management system rather than a quick API.
+
+
+Yes, there are a few grammatical and stylistic errors in the text. Here is a revised version with corrections:
+
+---
+
+## Installation
+
+To run the project locally, you need a virtual PHP development environment. I recommend [XAMPP](https://www.apachefriends.org), as it will allow us to host a database and control it using phpMyAdmin.
+
+#### The installation of the project is straightforward
+
+Start by extracting the files after downloading them and make sure you have [Composer](https://getcomposer.org) installed. Afterwards, run the following commands inside the project folder:
+
+  ```sh
+  composer install 
+  composer update
+  ```
+
+You need to generate a `.env` file. You can do that manually by copying `.env.example` and removing `.example` or by running the following command:
+
+  ```sh
+  cp .env.example .env
+  php artisan key:generate
+  ``` 
+
+Now, using XAMPP, you can start Apache and the MySQL connection. Then navigate to phpMyAdmin and create a new database. Call it "cinema_db".
+
+After that, make sure to connect the database inside the `.env` file:
+
+```sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=cinema_db
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+If everything is connected correctly, you can seed the database and host the API using Artisan locally:
+
+```sh
+php artisan migrate:fresh --seed
+php artisan serve
+```
+
+You should then get a link that will allow you to visit the website:
+`127.0.0.1:8000/login`
+
+If the site is working correctly, you should be able to create a user and claim an access token that will allow you to connect to the API safely.
+
+## API Functionality
+
+for the API documentation and functionality visit this [link](https://documenter.getpostman.com/view/10567374/2sA3XQiNHA)
