@@ -21,15 +21,19 @@
 
 <img align="right" src="https://i.imgur.com/KjuBPOn.png" style="width:500px">
 
+#### Customers Related 
 - Creating Customers and Adding Them to the Database
 - Editing and Patching Customers
 - Deleting Customers
 - Validating Customer Login Attempts
+#### Tickets Related 
 - Retrieving Tickets from the Database
 - Create Tickets and Adding them to the Database
+#### Movies Related 
 - Retrieving Theaters from the Database
 - Retrieving Screenings from the Database
 - Retrieving Movies from the Database
+#### Bonus Features 
 - Support for Relations Using &Include=
 - Extensive Filtering Options: Easily find specific records.
 - Extensive Sorting Options
