@@ -62,7 +62,7 @@ If this were a full-fledged project and I had more time, here are some enhanceme
 ## Installation
 
 To run the project locally, you need a virtual PHP development environment. I recommend [XAMPP](https://www.apachefriends.org), as it will allow us to host a database and control it using phpMyAdmin.
-### Make sure you have the latest version of XAMPP that supports PHP 8.2 or higher!
+##### Make sure you have the latest version of XAMPP that supports PHP 8.2 or higher!
 
 #### The installation of the project is straightforward
 
