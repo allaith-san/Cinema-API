@@ -26,8 +26,25 @@
 
 ## Features
 
-<img align="right" src="https://i.imgur.com/kSXwUJw.png">
+<img align="right" src="https://i.imgur.com/kSXwUJw.png" style="width:500px">
 
- - Test
- 
+- Creating Customers and Adding Them to the Database
+- Editing and Patching Customers
+- Deleting Customers
+- Validating Customer Login Attempts
+- Retrieving Tickets from the Database
+- Create Tickets and Adding them to the Database
+- Retrieving Theaters from the Database
+- Retrieving Screenings from the Database
+- Retrieving Movies from the Database
+- Support for Relations Using &Include=
+- Extensive Filtering Options: Easily find specific records.
+- Extensive Sorting Options
+- Pre-Formatted JSON Responses with camelCasing
+- Pagination System
+- Version-Based Structure Support
+- Hashed Passwords
+- Simple Admin Dashboard at http://localhost
+- Secured and Protected with Access Tokens
+- Entirely Seeded with Dummy Data Using Laravel Factories
 
