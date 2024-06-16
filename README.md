@@ -74,13 +74,12 @@ Start by extracting the files after downloading them and make sure you have [Com
 You need to generate a `.env` file. You can do that manually by copying `.env.example` and removing `.example` or by running the following command:
 
   ```sh
-  cp .env.example .env
+  cd .env.example .env
   php artisan key:generate
   ``` 
 
 Now, using XAMPP, you can start Apache and the MySQL connection. Then navigate to phpMyAdmin and create a new database. Call it "cinema_db".
-
-After that, make sure to connect the database inside the `.env` file:
+After that, make sure to connect the database inside the `.env` file, by uncommenting and filling in the values :
 
 ```sh
 DB_CONNECTION=mysql
@@ -98,10 +97,10 @@ php artisan migrate:fresh --seed
 php artisan serve
 ```
 
-You should then get a link that will allow you to visit the website:
-`127.0.0.1:8000/login`
-
+You should then get a link that will allow you to visit the website.
 If the site is working correctly, you should be able to create a user and claim an access token that will allow you to connect to the API safely.
+use the link `127.0.0.1:8000/register` to register the user
+
 
 ## API Functionality
 
