@@ -21,26 +21,25 @@
 
 <img align="right" src="https://i.imgur.com/KjuBPOn.png" style="width:500px">
 
-#### Customers Related 
-- Creating Customers and Adding Them to the Database
+#### Customers Related
+- Retrieving Customers
+- Creating Customers
 - Editing and Patching Customers
 - Deleting Customers
 - Validating Customer Login Attempts
 #### Tickets Related 
-- Retrieving Tickets from the Database
-- Create Tickets and Adding them to the Database
+- Retrieving Tickets
+- Creating Tickets
 #### Movies Related 
-- Retrieving Theaters from the Database
-- Retrieving Screenings from the Database
-- Retrieving Movies from the Database
+- Retrieving Theaters
+- Retrieving Screenings
+- Retrieving Movies
 #### Bonus Features 
 - Support for Relations Using &Include=
-- Extensive Filtering Options: Easily find specific records.
-- Extensive Sorting Options
+- Extensive Filtering & Sorting Options
 - Pre-Formatted JSON Responses with camelCasing
 - Pagination System
 - Version-Based Structure Support
-- Hashed Passwords
 - Simple Admin Dashboard
 - Secured and Protected with Access Tokens
 - Entirely Seeded with Dummy Data Using Laravel Factories
