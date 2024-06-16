@@ -75,9 +75,13 @@ Start by extracting the files after downloading them and make sure you have [Com
 You need to generate a `.env` file. You can do that manually by copying `.env.example` and removing `.example` or by running the following command:
 
   ```sh
-  cd .env.example .env
-  php artisan key:generate
+  copy .env.example .env
   ``` 
+
+generate a key for the project 
+```sh
+  php artisan key:generate
+```
 
 Now, using XAMPP, you can start Apache and the MySQL connection. Then navigate to phpMyAdmin and create a new database. Call it "cinema_db".
 After that, make sure to connect the database inside the `.env` file, by uncommenting and filling in the values :
